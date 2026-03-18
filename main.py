@@ -11,4 +11,12 @@ def main():
 if __name__ == "__main__":
     main()
 
-Print(maskepan)
+
+def leer_tareas():
+    with open("tareas.txt") as f:
+        return [line.strip().split(",") for line in f]
+
+def leer_recursos():
+    with open("recursos.txt") as f:
+        return [line.strip().split(",") for line in f]
+    
