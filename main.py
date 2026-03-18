@@ -8,8 +8,11 @@ def main():
     makespan = sys.argv[1]
     print("Makespan objetivo:", makespan)
 
-if __name__ == "__main__":
-    main()
+    tareas= leer_tareas()
+    recursos= leer_recursos()
+    print("Tareas:",tareas)
+    print("Recursos:", recursos)
+
 
 
 def leer_tareas():
@@ -19,4 +22,5 @@ def leer_tareas():
 def leer_recursos():
     with open("recursos.txt") as f:
         return [line.strip().split(",") for line in f]
-    
+
+if __name__ == "__main__": main()
