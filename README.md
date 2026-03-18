@@ -3,9 +3,9 @@
 Integrantes:
 - Jorge Arriola
 - Joaquin Moncada
-- Catalina Quiñones
+- Catalina Quiñones 
 
-## Cómo ejecutar
+# Cómo ejecutar
 1. Crear virtual environment: `python -m venv .venv`
 2. Activar: `source .venv/bin/activate`
 3. Instalar dependencias: `pip install -r requirements.txt`
